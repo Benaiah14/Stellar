@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 10px 126.085px 10px 126.085px;
+    color: #333;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+  }
+  :root {
+    --primary-color: #0047ff;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+  }

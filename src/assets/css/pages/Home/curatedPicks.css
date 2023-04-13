@@ -1,0 +1,54 @@
+.img {
+    padding: 9rem 3rem 2rem 4rem;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: none;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.i1 {
+    background-image: url(../../../images/Home/Curated-picks/seller.jpg);
+
+}
+
+.i2 {
+    background-image: url(../../../images/Home/Curated-picks/Men.PNG);
+}
+
+.i3 {
+    background-image: url(../../../images/Home/Curated-picks/Women.jpg);
+}
+
+.i4 {
+    background-image: url(../../../images/Home/Curated-picks/Kids.PNG);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curatedPicks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.shopNow {
+    color: white;
+    background-color: var(--primary-color);
+
+}
+
+.anchor {
+    padding: 10px 10px 10px 10px;
+    margin-top: 10rem;
+    background-color: var(--primary-color);
+    color: white;
+
+}

@@ -1,0 +1,98 @@
+span.stellar{
+    font-size: 4rem;
+    text-decoration: solid;
+    text-align: center;
+    color: #0047ff;
+    font-weight: 600;
+}
+.loginComponent > main{
+    text-align: center
+}
+.rem{
+    text-align: center;
+    justify-content: center;
+}
+.loginComponent > main > .account > span{
+    text-align: center;
+    font-size: 100.1%;
+}
+.loginComponent > main > p > b.email, .loginComponent > main > p > b.password{
+    background-color: #0047ff;
+    color: white;
+    border: 0 1px 1px 1px transparent;
+    box-shadow: 1px 1px 3px #0047ff;
+    display: inline-block;
+    margin-top: 1.2rem;
+}
+.loginComponent > main > p > b.email{
+    padding: 12px 51.1px 12px 51.1px;
+    border: 0 1px 1px 1px transparent;
+    box-shadow: 1px 1px 3px #0047ff;
+    background-color: #0047ff;
+    margin-top: 1.2rem;
+    
+}
+.loginComponent > main > p > input.email{
+    font-size: 1.5rem;
+    background-color: #e0e0e0;
+    margin-top: 1.2rem;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+
+    text-decoration: none;
+    
+}
+.loginComponent > .backArrow{
+    color:#1e1e1e;
+    font-size: 2rem;
+    width: 1.2rem;
+}
+.loginComponent > main > p > input.email:hover{
+    transition: 2s;
+    border: 0 1px 1px 1px transparent;
+    box-shadow: 1px 1px 3px #0047ff;
+   
+    
+}
+.loginComponent > main > p > b.password{
+    padding: 12px 70px 12px 70px;
+   margin-top: 1.2rem;
+    
+}
+.loginComponent > main > p > b.password2{
+    color: #1e1e1e;
+    text-decoration: solid;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 75px 10px 75px;
+    border: 0 1px 1px 1px transparent;
+    box-shadow: 1px 1px 3px #0047ff;
+    margin-top: 1.2rem;
+}
+.loginComponent > main > .rem{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.loginComponent > main > p > input.signIn{
+    background-color: #1e1e1e;
+    border: 0 1px 1px 1px transparent;
+    box-shadow: 1px 1px 3px #0047ff;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 126.085px 10px 126.085px;
+    color: #333;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+  }
+.loginComponent > main > p>  a.have-an-account{
+    color: #0047ff;
+    
+}

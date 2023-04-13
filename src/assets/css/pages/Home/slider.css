@@ -1,0 +1,19 @@
+header.upper {
+    display: flex;
+    justify-content: center;
+}
+
+header.upper>div>.level {
+    font-weight: 1000;
+}
+
+.shopNow {
+    color: white;
+    background-color: var(--primary-color);
+
+}
+
+.model {
+    background-image: url(../../../images/Home/header/model.PNG);
+    padding: 10px 10px 10px 10px;
+}
