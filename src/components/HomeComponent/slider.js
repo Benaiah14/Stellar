@@ -4,9 +4,7 @@ import '../../assets/css/pages/Home/slider.css'
 const Slider = () => {
   return (
     <header className='upper'>
-      <div className='model'>
         <img src={require('../../assets/images/Home/header/model.png')} className='img'/>
-      </div>
       <div>
         <h1 className='level'>Level Up Your <br />Style with our <br />Summer <br />Collections</h1>
         <a className='shopNow' href='/shop'>Shop Now <IoMdArrowForward /></a>

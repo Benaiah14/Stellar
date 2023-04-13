@@ -27,7 +27,16 @@ const Brands = () => {
 <section className='brands'>
   <h1>Brands</h1>
   <section>
-    <FaApple />
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    <img src={require('../../assets/images/Home/Brands/Apple Logo.png')} className='img'/>
+    
+  
   </section>
 </section>
   )

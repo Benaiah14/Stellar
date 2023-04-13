@@ -1,16 +1,28 @@
-.a1{
+.a1 {
     background-image: url(../../../images/Home/featured-picks/DenimShirt\ \(1\).jpg);
 }
-.a2{
+
+.a2 {
     background-image: url(../../../images/Home/featured-picks/OakleySunglasses.jpg);
 }
-.a3{
+
+.a3 {
     background-image: url(../../../images/Home/featured-picks/FemalesDiorShirt.jpg);
 }
-.featured>.img{
-    padding:  12rem 9rem 12rem 9rem;;
+
+.featured>.img {
+    padding: 12rem 9rem 12rem 9rem;
+
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: none;
+    text-align: center;
+    border-radius: 5%;
 }
-.featured{
+
+.featured {
     display: flex;
     justify-content: space-between;
     align-items: center;

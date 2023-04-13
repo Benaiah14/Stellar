@@ -1,6 +1,7 @@
 header.upper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header.upper>div>.level {
@@ -12,18 +13,24 @@ header.upper>div>.level {
     background-color: var(--primary-color);
 
 }
-.upper > .model
-.model{
+
+.upper>.model .model {
     /* background-image: url(../../../images/Home/header/model.png); */
-        padding: 12rem 3rem 2rem 4rem;
-      
-        /* background-repeat: no-repeat; */
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        background-attachment: none;
-        text-align: center;
-        border-radius: 5%;
-    
-    
+
+
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: none;
+    text-align: center;
+    border-radius: 5%;
+
+
+}
+
+.upper>.img {
+    display: inline;
+    width: 50%;
+    height: 50%;
 }
