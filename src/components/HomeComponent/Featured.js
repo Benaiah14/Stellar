@@ -3,6 +3,7 @@ import React from 'react'
 import '../../assets/css/pages/Home/curatedPicks.css'
 import '../../assets/css/pages/Home/featured.css'
 import Font from 'react-font'
+import Progress from '../common/progress'
 const Featured = () => {
     return (
         <section>
@@ -17,7 +18,7 @@ const Featured = () => {
                 <div className='img i3 a3'>
 
                 </div>
-
+            <Progress />
             </main>
         </section>
     )

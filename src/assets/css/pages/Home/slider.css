@@ -12,8 +12,18 @@ header.upper>div>.level {
     background-color: var(--primary-color);
 
 }
-
-.model {
-    background-image: url(../../../images/Home/header/model.PNG);
-    padding: 10px 10px 10px 10px;
+.upper > .model
+.model{
+    /* background-image: url(../../../images/Home/header/model.png); */
+        padding: 12rem 3rem 2rem 4rem;
+      
+        /* background-repeat: no-repeat; */
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-attachment: none;
+        text-align: center;
+        border-radius: 5%;
+    
+    
 }

@@ -8,8 +8,11 @@
     background-image: url(../../../images/Home/featured-picks/FemalesDiorShirt.jpg);
 }
 .featured>.img{
-    
+    padding:  12rem 9rem 12rem 9rem;;
 }
 .featured{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
