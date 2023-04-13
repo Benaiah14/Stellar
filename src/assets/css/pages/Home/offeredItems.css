@@ -1,0 +1,35 @@
+.offeredItems > div.b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.offeredItems > div > .img{
+    width: 9rem;
+    height: 10rem;
+}
+.offeredItems{
+    margin-top: 7rem;
+}
+.offeredItems > h1{
+    font-size: 16;
+}
+.offeredItems > .a >.viewShop{
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 40rem;
+}
+.offeredItems > div.a{
+    text-align: center;
+}
+.offeredItems > div.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offeredItems > div.first > .img{
+    width: 7rem;
+    height: 3rem;
+}

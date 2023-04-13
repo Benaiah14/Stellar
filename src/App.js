@@ -7,7 +7,6 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Login from './pages/entrance/login';
 import Register from './pages/entrance/Register';
 import Home from './pages/Home';
-import 'bootstrap/dist/css/bootstrap.css'
 function App() {
   return (
     <Font family='Poppins' weight={400}>
