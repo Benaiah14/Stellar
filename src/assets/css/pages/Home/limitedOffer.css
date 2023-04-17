@@ -1,0 +1,37 @@
+.limitedOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    margin: 5rem 0 5rem 0;
+    size: 40rem;
+}
+
+.limitedOffer>img.img {
+    height: 38rem;
+    width: 32rem;
+    margin: 0;
+}
+
+.limitedOffer>div {
+
+    padding-left: 5rem;
+}
+
+.limitedOffer>div>.hfirst {
+    color: white;
+}
+
+.limitedOffer>div>.hsecond {
+    color: white;
+    font-size: 5rem;
+}
+.limitedOffer>div>a{
+    background-color: white;
+    color: #1e1e1e;
+    display: inline-flex;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem 2.5rem 0.5rem 2.5em;
+}

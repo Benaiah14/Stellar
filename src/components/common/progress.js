@@ -1,13 +1,12 @@
-
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '../../assets/css/common/progress.css'
 function Progress() {
-  
-  const percentage = 73
+
+  const percentage = 75;
   return (
     <div className="progressBar">
-       <ProgressBar now={percentage} />
+      <ProgressBar now={percentage} animated/>
     </div>
   );
 }

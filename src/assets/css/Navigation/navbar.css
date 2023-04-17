@@ -5,7 +5,9 @@
     justify-content: space-between;
     color: white
 }
-
+.nav{
+    margin-top: 4rem;
+}
 .sign-up{
     color: white;
     display: flex;
@@ -47,6 +49,7 @@ a{
 }
 nav > .nav >.stellar{
     color: #0047ff;
-    font-size: 2rem;
+    font-size: 3rem;
     
 }
+

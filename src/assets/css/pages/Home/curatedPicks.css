@@ -38,7 +38,9 @@
     align-items: center;
     text-align: center;
 }
-
+.curatedPick{
+    margin-top: 5rem;
+}
 .shopNow {
     color: white;
     background-color: var(--primary-color);

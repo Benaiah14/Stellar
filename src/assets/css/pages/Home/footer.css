@@ -1,0 +1,37 @@
+footer.footer{
+    background-color: #e0e0e0;
+    padding: 2rem 2rem 4rem 2rem;
+    margin-top: 2rem;
+}
+.footer > div > div > h1{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+.footer > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer > div > .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer > div > .links > section > ul {
+    list-style-type: none;
+}
+.footer > div > .links > section  {
+    margin-left: 1rem;
+}
+.footer > div > img{
+    height: 5rem;
+    width: 6rem;
+}
+
+.footer >.copyWrite{
+    text-align: center;
+    padding-top: 3rem;
+}
+.footer > .payment{
+    padding-top: 3rem;
+}

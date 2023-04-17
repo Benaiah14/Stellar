@@ -1,0 +1,36 @@
+.contactUs{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+.contactUs > h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.contactUs > p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contactUs > form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.contactUs > form> .email{
+   border: 0;
+   border-radius: 10%;
+   font-size: 1.5rem;
+  padding: 1rem 6rem 1rem 8rem;
+   background-color: #e0e0e0;
+}
+.contactUs > form> .submit{
+    border: 0;
+   outline: none;
+   background-color: var(--primary-color);
+   color: white;
+   padding: 1rem 2rem 1rem 2rem;
+   border-radius: 10%;
+   font-size: 1.1rem;
+   margin-left: 1rem;
+ }

@@ -3,7 +3,7 @@ import Font from 'react-font'
 import '../../assets/css/pages/Home/curatedPicks.css'
 import { IoMdArrowForward } from 'react-icons/io'
 const CuratedPicks = () => (
-    <section>
+    <section className='curatedPick'>
         <Font family='Poppins' weight={900}><h1>Curated Picks</h1></Font>
         <main className='curatedPicks'>
             <div className='img i1'>

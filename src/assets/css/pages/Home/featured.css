@@ -10,26 +10,22 @@
     background-image: url(../../../images/Home/featured-picks/FemalesDiorShirt.jpg);
 }
 
-.featured>.img {
-    padding: 12rem 10rem 12rem 10rem;
+.feature>.under >div >img {
+    
 
-    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
     background-position: center;
     background-attachment: none;
-    text-align: center;
+    text-align: center; */
     border-radius: 5%;
 }
 
-.featured {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
+
 .feature > .under {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .feature > .under > div > .d1{
@@ -38,21 +34,43 @@
  .feature > .under > div > .o1{
     margin-right: 3rem;
 }
-.feature > .under > div > div > p{
+.feature > .under > div > div >div>  p{
     font-weight: 600;
     font-size: 1.5rem;
     margin: 0;
 }
-.feature > .under > div > div > h1{
+.feature{
+    margin-top: 5rem;
+}
+.feature > .it{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.feature > .it >img.swiper{
+    width: 7rem;
+    height: 3rem;
+}
+.feature > .under > div > div >div>  h1{
     font-weight: 600;
     font-size: 1.5rem;
     margin: 0;
 }
-.feature > .under > div{
+.feature > .under > div > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* .feature > .under > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.feature > .under > div > img.img{
+    width: 21.25rem;
+    height: 31.1875rem;
+} 
 .feature > .under > div > .img1, .feature > .under > div > .img2{
     margin-right: 0.5rem;
 }
