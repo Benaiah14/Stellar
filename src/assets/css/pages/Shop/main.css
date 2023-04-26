@@ -1,0 +1,87 @@
+.mainShop{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.mainShop>.filter{
+    grid-row: 1 / span 3;
+}
+.mainShop>.categories>img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+.mainShop>.categories{
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainShop>.filter>div>select{
+    text-decoration: solid;
+    border: none;
+    background-color: #e0e0e0;
+    font-size: 1rem;
+    padding: 0 1rem 0 1rem;
+    outline: none;
+}
+.mainShop>.filter{
+    background-color: #e0e0e0;
+    border-radius: 4%;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
+    font-size:  1.1rem;
+    
+}
+body{
+    margin:2rem;
+}
+.mainShop>.filter>div>section>input[type='checkbox']{
+    background-color: black !important;
+    color: black !important;
+}
+.mainShop>.filter>div>section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainShop h1{
+    color: var(--primary-color);
+}
+.mainShop>.filter>.size>div>p{
+    background-color: #1e1e1e;
+    margin: 0.5rem;
+    border-radius: 10%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.mainShop>.filter>.size>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.mainShop>.filter>p>.checkout{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    margin: 1rem;
+    border: none;
+    outline: none;
+}
+.mainShop>.filter>p{
+    text-align: center;
+}
+.mainShop>.products >.img{
+    width: 17rem;
+    height: 15rem;
+}
+.mainShop>.products >div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainShop>.filter>div>.fil{
+    padding-right: 1rem;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Filter = ({
+const Filter2 = ({
   color1,
     color2,
     color3,
@@ -53,13 +53,17 @@ const Filter = ({
                 <div className='size'>
                     <h1>Size</h1>
                     <div>
-                        <p style={{ backgroundColor: color1 }} onClick={onChange1}>S</p>
-                        <p style={{ backgroundColor: color2 }} onClick={onChange2}>M</p>
-                        <p style={{ backgroundColor: color3 }} onClick={onChange3}>L</p>
-                        <p style={{ backgroundColor: color4 }} onClick={onChange4}>LL</p>
-                        <p style={{ backgroundColor: color5 }} onClick={onChange5}>XL</p>
-                        <p style={{ backgroundColor: color6 }} onClick={onChange6}>XXL</p>
-                        <p style={{ backgroundColor: color7 }} onClick={onChange7}>Kids</p>
+                        <p style={{ backgroundColor: color1 }} onClick={onChange1}>ADULT</p>
+                        <p style={{ backgroundColor: color2 }} onClick={onChange2}>KIDS</p>
+                        
+                    </div>
+                </div>
+                <div className='size'>
+                    <h1>Size</h1>
+                    <div>
+                        <p className='2'></p>
+                        <p className='c2'></p>
+                        
                     </div>
                 </div>
                 <div className='price'>
@@ -105,4 +109,4 @@ const Filter = ({
   )
 }
 
-export default Filter
+export default Filter2
