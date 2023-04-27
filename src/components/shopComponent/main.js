@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../assets/css/pages/Shop/main.css'
-import Filter2 from './filter2'
+import Filter from './filter'
 const Main = ({ color1,
     color2,
     color3,
@@ -18,7 +18,7 @@ const Main = ({ color1,
 }) => {
     return (
         <div className='mainShop'>
-            {<Filter2 
+            {<Filter 
             color1={color1}
             color2={color2}
             color3={color3}
