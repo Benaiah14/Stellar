@@ -30,7 +30,7 @@ const Filter2 = ({
                     <section className='men'>
                         <div>
                             <input type='checkbox' />
-                            <b>Men</b>
+                            <b>Men</b><bo>bonding </bo>
                         </div>
                         <p>1234</p>
                     </section>
