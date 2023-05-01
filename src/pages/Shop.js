@@ -50,6 +50,16 @@ const Shop = () => {
                 s1:'var(--primary-color)'}
         })
     }
+    const [filter, setFilter] = useState('1')
+    const onClick1=()=>{
+        setFilter('1')
+    }
+    const onClick2=()=>{
+        setFilter('2')
+    }
+    const onClick3=()=>{
+
+    }
     return (
         <ShopComponent
             color1={state.color.s1}
@@ -66,6 +76,10 @@ const Shop = () => {
             onChange5={onChange5}
             onChange6={onChange6}
             onChange7={onChange7}
+            filter={filter}
+            onClick1={onClick1}
+            onClick2={onClick2}
+            onClick3={onClick3}
         />
     )
 }
