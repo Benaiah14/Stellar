@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../assets/css/'
+import '../../assets/css/pages/Shop/filter.css'
 const Filter2 = ({
     color1,
     color2,
