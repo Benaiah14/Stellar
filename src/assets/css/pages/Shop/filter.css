@@ -28,3 +28,7 @@
 .mainShop .c10{
     background-color: black;
 }
+.filter2>.size>div>p{
+    padding: 2rem;
+    border-radius: 30%;
+}

@@ -18,7 +18,7 @@ const Filter2 = ({
     filter
 }) => {
     return (
-        <form action='/checkout' method='GET' className='filter filter2'>
+        <form action='/checkout' method='GET' className='filter'>
             <div>
                 <b className='fil'>Filter</b>
                 <b>Sort by:</b>
@@ -62,16 +62,16 @@ const Filter2 = ({
             <div className='size'>
                 <h1>Color</h1>
                 <div>
-                    <p className='c'></p>
-                    <p className='c2'></p>
-                    <p className='c3'></p>
-                    <p className='c4'></p>
-                    <p className='c5'></p>
-                    <p className='c6'></p>
-                    <p className='c7'></p>
-                    <p className='c8'></p>
-                    <p className='c9'></p>
-                    <p className='c10'></p>
+                    <p className='c' style={{padding: '1rem'}}></p>
+                    <p className='c2' style={{padding: '1rem', backgroundColor: 'white'}}></p>
+                    <p className='c3' style={{padding: '1rem', backgroundColor: 'grey'}}></p>
+                    <p className='c4' style={{padding: '1rem', backgroundColor: 'lightgreen'}}></p>
+                    <p className='c5' style={{padding: '1rem', backgroundColor: 'blue'}}></p>
+                    <p className='c6' style={{padding: '1rem', backgroundColor: 'gold'}}></p>
+                    <p className='c7' style={{padding: '1rem', backgroundColor: 'red'}}></p>
+                    <p className='c8' style={{padding: '1rem', backgroundColor: '#ff6868'}}></p>
+                    <p className='c9' style={{padding: '1rem', backgroundColor: 'yellow '}}></p>
+                    <p className='c10' style={{padding: '1rem', backgroundColor: 'purple'}}></p>
                 </div>
             </div>
             <div className='price'>
